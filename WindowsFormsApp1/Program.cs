@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+/*
+class RunMultiple
+{
+    void RunMultipleForms(params Form[] forms)
+    {
+        int lengthForm = forms.Length;
+        for()
+    }
+};
+*/
+
+namespace ClientNs
+{
+    static class Program
+    {
+        
+
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new server());
+            //Application.Run(new client());
+        }
+    }
+}
