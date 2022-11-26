@@ -1,1 +1,1 @@
-# csharp_chat
+# C# based chat App
